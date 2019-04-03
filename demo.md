@@ -1,1 +1,1 @@
-<img src='image/scatter.png'>
+<img src='images/scatter.png'>
