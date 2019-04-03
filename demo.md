@@ -4,4 +4,8 @@
 <img src='images/ack_time.PNG'>
 <img src='images/adaptation_id.png'>
 <img src='images/adaptation_release.PNG'>
-<img src='images/agent_id.PNG'>
+<img src='images/alarm_time.PNG'>
+<img src='images/alarm_type.PNG'>
+<img src='images/alarm_type2.PNG'>
+<img src='images/alarm_type3.PNG'>
+<img src='images/alarm_type4.PNG'>
