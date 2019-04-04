@@ -9,3 +9,5 @@
 <img src='images/alarm_type2.PNG'>
 <img src='images/alarm_type3.PNG'>
 <img src='images/alarm_type4.PNG'>
+<img src='images/correlation1.PNG'>
+<img src='images/correlation2.PNG'>
