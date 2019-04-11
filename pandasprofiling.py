@@ -1,9 +1,11 @@
 
+#CODE TO CREATE PANDAS PROFILING FOR THE DATASET
 
 import pandas as pd 
 import matplotlib.pyplot as plt
 import numpy as np
 
+#CONVERTING STRING DATE TO THE TIMESTAMP
 time_date = ['ALARM_TIME','CANCEL_TIME','ACK_TIME','EVENT_TIME','INSERT_TIME','UPDATE_TIMESTAMP','TERMINATED_TIME']
 data2 = pd.read_csv("C:/Users/jhunjhun/Documents/alarmDump/a4ossv04_fm_dump/fm_alarms_18012019_085951.csv"
                     , parse_dates=time_date
