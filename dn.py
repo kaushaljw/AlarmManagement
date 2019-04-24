@@ -43,3 +43,4 @@ dataset5 = dataset5.sort_values('CONSEC_NBR')
 dataset5['DIFF'] = dataset5['TERMINATED_TIME'] - dataset5['ALARM_TIME']
 dataset5['DIFF'] = dataset5['DIFF'].dt.total_seconds()
 plt.plot(dataset5.CONSEC_NBR,dataset5.DIFF)
+
