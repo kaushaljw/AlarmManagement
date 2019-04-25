@@ -78,4 +78,5 @@ plt.title('Alarm Number')
 plt.xlabel('Alarm Number')
 plt.ylabel('Alarm Time and Cancel Time')
 plt.legend()
-plt.show()                    
+plt.show()   
+
