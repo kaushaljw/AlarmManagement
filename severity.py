@@ -75,3 +75,4 @@ plt.xlabel('Severity')
 plt.ylabel('Alarm Time and Cancel Time')
 plt.legend()
 plt.show()
+
