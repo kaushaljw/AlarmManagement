@@ -1,10 +1,6 @@
 '''
-DN = “PLMN-CBIS/CBIS-PCRFSPS1-NOR/COMPUTE-overcloud-ovscompute-23/SERVER-1”
-After removing ‘AUTOACK’ from ACKED_BY it was found that: -
-1.	ORIGINAL_SEVERITY is always 99.
-2.	SEVERITY is always 1.
-3.	Time difference between TERMINATED_TIME and ALARM_TIME is between 1 day and 1 day 2 hours.
-
+Analysing the dataset after removing ACKED_BY = 'AUTOACK'
+analysis is present in 
 '''
 
 import matplotlib.pyplot as plt
