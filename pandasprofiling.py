@@ -19,3 +19,4 @@ import pandas_profiling
 profile = pandas_profiling.ProfileReport(data2)
 display(profile)
 profile.to_file(outputfile="C:/Users/jhunjhun/Desktop/myoutputfile.html")
+
