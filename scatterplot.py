@@ -16,3 +16,4 @@ data = data.drop(['TROUBLE_TICKET_ID','EXTRA_TEXT','USER_ADDITIONAL_INFO','DIAGN
 
 sm = pd.plotting.scatter_matrix(data, figsize=(25,25))
 plt.show()
+
