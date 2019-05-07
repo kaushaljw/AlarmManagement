@@ -1,6 +1,8 @@
 '''
 Analysing the dataset after removing ACKED_BY = 'AUTOACK'
-analysis is present in 
+analysis is present in profiling.pdf and 
+profiling.pdf - pandas profiling for the above condition
+
 '''
 
 import matplotlib.pyplot as plt
