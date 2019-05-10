@@ -1,9 +1,21 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May  9 10:58:19 2019
 
-@author: jhunjhun
-"""
+'''
+This program is a tool to analyse severity based on the alarm_time, termination_time and agent_id
+It does the analysis by removing AUTOACK from ACKED_BY 
+1. First it will ask to provide path where the file is present.
+2. It will ask to provide the file name to be analysed.
+3. Provide the SEVERITY to be analysed.
+It will provide the AGENT_ID based on the number of appearances
+Than the time difference between TERMINATED_TIME and AGENT_ID
+And finally the graph between the dates and the time difference in seconds
+4. It will ask to provide AGENT_ID based on which the analysis is to be done.
+5. Than the severity.
+6. It will provide output in the same way as given above
+'''
+
+
+
+
 #C:\Users\jhunjhun\Documents\alarmDump\a4ossv04_fm_dump\fm_alarms_18012019_085951.csv
 import matplotlib.pyplot as plt
 import pandas as pd
